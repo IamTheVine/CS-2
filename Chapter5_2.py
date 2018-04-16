@@ -35,8 +35,11 @@ while True :
 	except :
 		print('Invalid Input')
 
+if NumCtr > 0 :
+	NumAvg = NumSum / NumCtr
+
 print('Total : ', NumSum)
 print('Count : ', NumCtr)
-print('Average:', NumSum / NumCtr)
+print('Average:', NumAvg)
 print('Maximum: ', NumMax)
 print('Minimum: ', NumMin)
